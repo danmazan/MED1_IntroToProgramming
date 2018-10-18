@@ -1,6 +1,6 @@
-Flower myFlower1;
-Flower myFlower2;
-Flower myFlower3;
+Flower_ myFlower1;
+Flower_ myFlower2;
+Flower_ myFlower3;
 
 
 void setup() {
@@ -15,9 +15,9 @@ void setup() {
   int _speed=3;
   int _xDirect=1;
   int _yDirect=1;
-  myFlower1 = new Flower (_r,_nPetals,_x,_y,_petalColor,_speed,_xDirect,_yDirect);
-  myFlower2 = new Flower (_r-100,_nPetals+5,_x+random(-100,100),_y+random(-100,100),_petalColor,_speed-1,_xDirect,_yDirect);
-  myFlower3 = new Flower (_r-50,_nPetals+3,_x+random(-200,200),_y+random(-200,200),_petalColor,_speed+2,_xDirect,_yDirect);
+  myFlower1 = new Flower_ (_r,_nPetals,_x,_y,_petalColor,_speed,_xDirect,_yDirect);
+  myFlower2 = new Flower_ (_r-100,_nPetals+5,_x+random(-100,100),_y+random(-100,100),_petalColor,_speed-1,_xDirect,_yDirect);
+  myFlower3 = new Flower_ (_r-50,_nPetals+3,_x+random(-200,200),_y+random(-200,200),_petalColor,_speed+2,_xDirect,_yDirect);
 }
 void draw(){
   background(#43AF76);

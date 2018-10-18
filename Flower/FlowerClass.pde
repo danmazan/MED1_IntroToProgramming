@@ -1,4 +1,4 @@
-class Flower{
+class Flower_{
  
   //Variables
   
@@ -12,7 +12,7 @@ class Flower{
   int yDirect; // direction of y position
   
   
-  Flower (float temp_r,int temp_nPetals, float temp_x, float temp_y, int temp_petalColor, int temp_speed, int temp_xDirect, int temp_yDirect) {
+  Flower_ (float temp_r,int temp_nPetals, float temp_x, float temp_y, int temp_petalColor, int temp_speed, int temp_xDirect, int temp_yDirect) {
     r=temp_r;
     nPetals=temp_nPetals;
     x=temp_x;
